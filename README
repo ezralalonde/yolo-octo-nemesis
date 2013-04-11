@@ -1,0 +1,21 @@
+A program that repeatedbly reads a positive integer and determines whether it
+is "deficient", "perfect", or "abundant".
+
+Abundance, etc. of positive integer `N` is determined according to the
+following scheme, where `X` is the sum of its proper divisors.
+
+    - `X` > `N` means N is "abundant".
+    - `X` < `N` means N is "deficient".
+    - `X` = `N` means N is "perfect".
+
+Input is read from `stdin`, according to the following scheme:
+
+    - The first line of input is the number of lines to read, `L`.
+    - The next `L` lines contain the numbers to determine abundance, etc. of.
+
+Output is written to `stdout`, according to the following scheme:
+
+    - For each line of output, two lines of output will be produced.
+    - The first line will say the number read, and whether is is abundant, etc.
+    - The second line will be blank.
+
